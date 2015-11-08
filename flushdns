@@ -1,8 +1,4 @@
 #!/bin/bash
 
-# see http://superuser.com/questions/75166/how-to-find-out-mac-os-x-version-from-terminal and convert to ruby?
-#if 10.9 == system_profiler SPSoftwareDataType
-#sudo killall -HUP mDNSResponder
-# if 10.10 == system_profiler SPSoftwareDataType
-sudo dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
 
