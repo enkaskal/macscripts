@@ -1,4 +1,15 @@
 #!/bin/bash
 
+#Mac OS X Yosemite and later
 sudo killall -HUP mDNSResponder
 
+#Mac OS X Yosemite v10.10 through v10.10.3
+#sudo discoveryutil mdnsflushcache
+
+#Mac OS X Mavericks, Mountain Lion and Lion
+#sudo killall -HUP mDNSResponder
+
+#Mac OS X Snow Leopard
+#sudo dscacheutil -flushcache
+
+#EOF
